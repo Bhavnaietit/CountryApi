@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#shimmer{
+    margin: 30px;
+    height: 400px;
+    width: 600px;
+    background: gray;
+    border: 1px solid gray;
+}

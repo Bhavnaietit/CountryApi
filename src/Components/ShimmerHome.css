@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#headr{
+    height: 30px;
+    background: gray;
+}
+#boxes{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.box{
+height: 300px;
+width: 250px;
+border: 1px solid rgb(140, 136, 136);
+background: gray;
+}

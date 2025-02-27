@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#back-btn {
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.dark {
+    color: rgb(232, 236, 239);
+    background: rgb(6, 1, 32);
+}
+
+.light {
+    background: white;
+}
+
+#header,
+#header2 {
+    font-size: 30px;
+   
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .2);
+}
+#header{
+background: white;
+}
+#header2 {
+    margin-top: 10px;
+    box-shadow: none;
+    height: fit-content;
+   
+}
+
+#mode {
+    font-size: 20px;
+    padding: 5px;
+}
+
+/* search bar */
+#search{
+    height: 30px;
+    display: flex;
+    border: 1px solid rgb(208, 199, 199);
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 10px;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+}
+#searchBar {
+    height: 30px;
+    display: flex;
+    border-radius: 50px;
+}
+
+input {
+    outline: none;
+    border: 0;
+    font-size: medium;
+    width: 300px;
+ }
+
+#searchBar button {
+    padding: 2px;
+    outline: none;
+    border: 0;
+    background: white;
+} 
+
+#regionSelect{
+    text-align: center;
+  outline: none;
+   height: 40px;
+   width: 150px;
+   font-size: 20px;
+   border: 0;
+    border: 1px solid rgb(208, 199, 199);
+   border-radius: 50px;   
+}
+/* main container */
+
+.countries-conatainer {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: fit-content;
+
+}
+ .countries-conatainer a {
+    height:400px;
+    text-decoration: none;
+    border:none;
+    border-radius: 6px;
+    background-color: rgb(247, 255, 255);
+    overflow: hidden;
+}
+
+.country {
+    width: 250px;
+    height: 350px;
+}
+#info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #000;
+    flex-direction: column;
+    padding-left: 10px;
+}
+ .img {
+    width: 100%;
+    height: 40%;
+}
+ .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.country b {
+    font-size: 15px;
+    margin: 10px;
+}
+.country b  span{
+    font-size: 12px;
+}
